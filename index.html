@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Minecraft Calculator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+  
+  <body>
+    <section class="section content">
+      <div class="container">
+        <div class="columns is-vcentered">
+  
+          <div class="column">
+  
+            <h1 class="title">
+              Minecraft Calculator
+            </h1>
+            <p class="subtitle">
+              Calculate supplies for minecraft build.
+            </p>
+  
+          </div>
+        </div>
+        <div class="calculator p-6">
+  
+          <div class="columns is-vcentered">
+  
+            <div class="column is-5">
+  
+              <h2>Input</h2>
+              <form>
+                <fieldset>
+                  <legend>Choose Your Items</legend>
+                  <div class="columns is-multiline is-vcentered" id="items">
+  
+                    <div class="is-12 column">
+                      <div class="field has-addons">
+                        <div class="control has-icons-left">
+                          <select name="item" id="item-names-1" class="item-names input"></select>
+                          <span class="icon is-medium is-left">
+                            <i class="icon" id="icon"></i>
+                          </span>
+                        </div>
+                        <div class="control">
+                          <input type="number" name="number" id="item-number-1" min=0 value=1 class="input number">
+                        </div>
+                        <div class="control">
+                          <input type="button" value="+" onclick="newRow()" class="new-row button" />
+                        </div>
+                      </div>
+                    </div>
+  
+                  </div>
+                </fieldset>
+  
+              </form>
+            </div>
+            <div class="column is-2" id="build-list-button">
+              <input type="submit" id="submit"  value="Get Build List ->" onclick="displayBuildList()" class="button m-5" />
+  
+              <input type="submit" id="submit"  value="Clear Build List ->" onclick="clearBuildList()" class="button m-5" />
+            </div>
+            <div class="column  is-5">
+              <h2>Output</h2>
+  
+              <textarea id="output" name="output" class="textarea" rows="20"></textarea>
+  
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </section>
+    <script src="js/minecraft-calc-working.js"></script>
+    </body>
+
+    </html>

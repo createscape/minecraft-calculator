@@ -1,0 +1,32 @@
+body {
+  background: url(../img/wallpaper_minecraft_island_2560x1440.png) no-repeat;
+  background-size: cover;
+  background-position: fixed;
+}
+
+#build-list-button {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.input.number {
+  width: 60px;
+}
+.input.item-names {
+  width: 250px;
+}
+
+section {
+  min-height: 100vh;
+}
+
+.calculator {
+  background-color: rgba(255, 255, 255, 0.9);
+
+  border-radius: 12px;
+}
+
+#icon {
+  width: 40px;
+  height: 40px;
+}
