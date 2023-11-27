@@ -1,14 +1,4 @@
-let itemList = [
-    ["Hay Block", 1, "Wheat", 9],
-    ["Birch Planks", 4, "Birch Logs", 1],
-    ["Cake", 1, "Wheat", 3, "Milk Bucket", 3, "Sugar", 2, "Eggs", 1],
-    ["Observer", 1, "Cobblestone", 6, "Redstone Dust", 2, "Nether Quartz", 1],
-    ["Torch", 4, "Coal", 1, "Sticks", 1]
-  ];
-
-
-
-  //Add Icons to Drop downs -  ItemList values have to be same name as images
+//Add Icons to Drop downs -  ItemList values have to be same name as images
   function formatBlockIcon (block) {
     if (!block.id) {
       return block.text;
@@ -73,25 +63,18 @@ let itemList = [
       
     }
 
-  
-  
-
-
   //Add Select2 to the new rows now that we have the ID
     $(htmlId).select2({
       templateResult: formatBlockIcon
 
     });
 
-  
- 
-  
-  
+
     countArray.push(rowCount); // Add the row numbers to an array that we can loop through
   }
   
   let outputField = document.getElementById("output"); //get the output textarea;
-  
+
   
   //Set the main object array outside the function so we can use it later
   let additionArrayNew = [];
@@ -253,8 +236,10 @@ let itemList = [
   }
   
   //To Do List:
-   // Add icons - Fix Select2 templateResult
+
   // Add data for different recipes
   // Design elements
+  // Device Testing
+  
  
   
