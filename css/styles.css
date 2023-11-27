@@ -4,10 +4,19 @@ body {
   background-position: fixed;
 }
 
+section {
+  min-height: 100vh;
+}
+
+.calculator {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+}
 #build-list-button {
   text-align: center;
   vertical-align: middle;
 }
+
 /*Select2 Styles*/
 
 .select2-container .select2-selection--single {
@@ -24,28 +33,27 @@ body {
 }
 
 .select2-container--default
-  .select2-selection--single
-  .select2-selection__rendered {
+  .select2-selection--singleF
+  .select2-selection__rendered, .select2-container--default .select2-selection--single .select2-selection__rendered {
   line-height: 35px;
 }
+  
+.block-icon {
+  max-width: 25px;
+  height: auto;
+  margin-right: 3px;
+  margin-bottom: -5px;
+}
+.dropdown-text {
+  line-height: 30px;
+}
+/*General Form Styles*/
 .input.number {
   width: 60px;
+  font-size: 18px;
+  padding: 1.16rem 0;
 }
 .input.item-names {
   width: 250px;
 }
 
-section {
-  min-height: 100vh;
-}
-
-.calculator {
-  background-color: rgba(255, 255, 255, 0.9);
-
-  border-radius: 12px;
-}
-
-#icon {
-  width: 40px;
-  height: 40px;
-}
