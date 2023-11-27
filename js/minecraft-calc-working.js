@@ -5,7 +5,14 @@ let itemList = [
     ["Observer", 1, "Cobblestone", 6, "Redstone Dust", 2, "Nether Quartz", 1],
     ["Torch", 4, "Coal", 1, "Sticks", 1]
   ];
-  
+
+  // Apply Select2 to First Select Field
+  $(document).ready(function() {
+    $('#item-names-1').select2();
+  });
+
+
+
   //Get List of Item names
   let itemNamesList = itemList.map(function (x) {
     return x[0];
@@ -41,13 +48,20 @@ let itemList = [
     formColumns.insertAdjacentHTML("beforeend", newRow); //Insert the new rows before the end of the Columns div
   
     id = "item-names-" + rowCount; //Create the new Id for each row
-  
+    let htmlId = "#" + id;
     let select = document.getElementById(id); // Get the element with that id
 
     // Add the list of minecraft items to the element with the ID
     for (var i = 0; i < itemNamesList.length; i++) {
       select.options.add(new Option(itemNamesList[i], itemNamesList[i]));
     }
+
+    //Add Select2 to the new Row
+
+
+    $(document).ready(function() {
+      $(htmlId).select2();
+    });
   
     countArray.push(rowCount); // Add the row numbers to an array that we can loop through
   }
