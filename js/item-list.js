@@ -95,6 +95,21 @@ let itemList = [
 
 //Add other fences and signs
 
+
+["Birch Sign", 3, "Birch Planks", 6, "Sticks", 1], //Math for signs isn't working properly
+["Acacia Sign", 3, "Acacia Planks", 6, "Sticks", 1],
+["Oak Sign", 3, "Oak Planks", 6, "Sticks", 1],
+["Dark Oak Sign", 3, "Dark Oak Planks", 6, "Sticks", 1],
+["Jungle Sign", 3, "Jungle Planks", 6, "Sticks", 1],
+["Spruce Sign", 3, "Jungle Planks", 6, "Sticks", 1],
+["Cherry Sign", 3, "Cherry Planks", 6, "Sticks", 1],
+["Mangrove Sign", 3, "Mangrove Planks", 6, "Sticks", 1],
+["Bamboo Sign", 3, "Bamboo Planks", 6, "Sticks", 1],
+["Crimson Sign", 3, "Crimson Planks", 6, "Sticks", 1],
+["Warped Sign", 3, "Warped Planks", 6, "Sticks", 1],
+
+//All the signs are done
+
   //Redstone Items
   ["Observer", 1, "Cobblestone", 6, "Redstone Dust", 2, "Nether Quartz", 1],
   ["Acacia Button", 1, "Acacia Planks", 1],
