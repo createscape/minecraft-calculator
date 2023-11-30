@@ -19,7 +19,7 @@ let itemList = [
 
 
   //Slabs
-  ["Spruce Slab", 6, "Spruce Planks", 3],  //Math for Slabs isn't working properly
+  ["Spruce Slab", 6, "Spruce Planks", 3],  
   ["Oak Slab", 6, "Oak Planks", 3],
   ["Dark Oak Slab", 6, "Dark Oak Planks", 3],
   ["Cherry Slab", 6, "Cherry Planks", 3],
@@ -76,7 +76,7 @@ let itemList = [
 
 
   //Doors
-  ["Acacia Door", 3, "Acacia Planks", 6], //Math for doors isn't working properly
+  ["Acacia Door", 3, "Acacia Planks", 6], 
 
 //Add other wood doors
 
@@ -90,13 +90,13 @@ let itemList = [
   ["Crimson Gate", 1, "Crimson Planks", 2, "Sticks", 4],
   ["Warped Gate", 1, "Warped Planks", 2, "Sticks", 4],
 
-  ["Acacia Fence", 3, "Acacia Planks", 4, "Sticks", 2] , //Math for fence isn't working properly
-  ["Acacia Hanging Sign", 6, "Iron Chains", 2, "Stripped Acacia Logs", 6], //Math for fence isn't working properly
+  ["Acacia Fence", 3, "Acacia Planks", 4, "Sticks", 2] , 
+  ["Acacia Hanging Sign", 6, "Iron Chains", 2, "Stripped Acacia Logs", 6], 
 
 //Add other fences and signs
 
 
-["Birch Sign", 3, "Birch Planks", 6, "Sticks", 1], //Math for signs isn't working properly
+["Birch Sign", 3, "Birch Planks", 6, "Sticks", 1], 
 ["Acacia Sign", 3, "Acacia Planks", 6, "Sticks", 1],
 ["Oak Sign", 3, "Oak Planks", 6, "Sticks", 1],
 ["Dark Oak Sign", 3, "Dark Oak Planks", 6, "Sticks", 1],
@@ -164,11 +164,11 @@ let itemList = [
   ["Jungle Boat", 1, "Jungle Planks", 5],
   ["Mangrove Boat", 1, "Mangrove Planks", 5],
   ["Bamboo Raft", 1, "Bamboo Planks", 5],
-  ["Stick", 4, "Planks", 2], //Math not working correctly
+  ["Stick", 4, "Planks", 2], 
   ["Crafting Table", 1, "Planks", 4],
   ["Boat with Chest", 1, "Chest", 1, "Boat", 1],
   ["Furnace", 1, "Cobblestone", 8],
-  ["Ladder", 3, "Sticks", 7] //Math not working correctly
+  ["Ladder", 3, "Sticks", 7] 
   
 
 

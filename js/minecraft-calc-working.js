@@ -172,11 +172,11 @@
       if (itemArr[4] && !itemArr[6]) {
         let itemOneRatio = itemArr[3] / itemArr[1];
         let answerDecimalOne = itemOneRatio * itemCount;
-        let answerOneMath = Math.ceil(answerDecimalOne);
+        let answerOneMath = Math.ceil(answerDecimalOne / itemArr[3]) * itemArr[3];
   
         let itemTwoRatio = itemArr[5] / itemArr[1];
         let answerDecimalTwo = itemTwoRatio * itemCount;
-        let answerTwoMath = Math.ceil(answerDecimalTwo);
+        let answerTwoMath = Math.ceil(answerDecimalTwo / itemArr[5]) *  itemArr[5];
   
          //Put the items into an array of objects
         let arr1 =  {
@@ -195,7 +195,7 @@
       if (!itemArr[4]) {
         let ratio = itemArr[3] / itemArr[1]; //convert to decimal
         let answerDecimal = ratio * itemCount; //multiply by user submitted number of items
-        let answerMath = Math.ceil(answerDecimal); //round up
+        let answerMath = Math.ceil(answerDecimal / itemArr[3]) * itemArr[3]; //round up
 
         //Put the items into an array of objects  
           let arr1 =  {
