@@ -15,8 +15,25 @@ let itemList = [
 
  //Other building materials
   ["Bricks", 1, "Brick", 4], 
+  ["Painting", 1, "Wool", 1, "Sticks", 8], 
   
 
+  //Beds
+  ["Blue Bed", 1, "Blue Wool", 3, "Planks", 3], 
+  ["Light Blue Bed", 1, "Light Blue Wool", 3, "Planks", 3], 
+  ["Purple Bed", 1, "Purple Wool", 3, "Planks", 3], 
+  ["Red Bed", 1, "Red Wool", 3, "Planks", 3], 
+  ["Magenta Bed", 1, "Magenta Wool", 3, "Planks", 3], 
+  ["Orange Bed", 1, "Orange Wool", 3, "Planks", 3], 
+  ["Yellow Bed", 1, "Yellow Wool", 3, "Planks", 3], 
+  ["Green Bed", 1, "Green Wool", 3, "Planks", 3], 
+  ["Lime Bed", 1, "Lime Wool", 3, "Planks", 3], 
+  ["Black Bed", 1, "Black Wool", 3, "Planks", 3], 
+  ["White Bed", 1, "White Wool", 3, "Planks", 3], 
+  ["Gray Bed", 1, "Gray Wool", 3, "Planks", 3], 
+  ["Cyan Bed", 1, "Cyan Wool", 3, "Planks", 3],
+  ["Pink Bed", 1, "Pink Wool", 3, "Planks", 3],
+  
 
   //Slabs
   ["Spruce Slab", 6, "Spruce Planks", 3],  
@@ -72,26 +89,133 @@ let itemList = [
   ["Waxed Weathered Cut Copper Slab", 6, "Waxed Weathered Cut Copper", 3],
   ["Waxed Oxidized Cut Copper Slab", 6, "Waxed Oxidized Cut Copper", 3],
 
-  //All The Slabs are done
-
-
   //Doors
   ["Acacia Door", 3, "Acacia Planks", 6], 
+  ["Birch Door", 3, "Birch Planks", 6], 
+  ["Cherry Door", 3, "Cherry Planks", 6], 
+  ["Oak Door", 3, "Oak Planks", 6],
+  ["Dark Oak Door", 3, "Dark Oak Planks", 6],
+  ["Spruce Door", 3, "Spruce Planks", 6],
+  ["Mangrove Door", 3, "Mangrove Planks", 6],
+  ["Jungle Door", 3, "Jungle Planks", 6],
+  ["Bamboo Door", 3, "Bamboo Planks", 6],
+  ["Crimson Door", 3, "Crimson Planks", 6],
+  ["Warped Door", 3, "Warped Planks", 6],
 
-//Add other wood doors
+
+   //Stairs
+   ["Acacia Stairs", 4, "Acacia Planks", 6], 
+   ["Birch Stairs", 4, "Birch Planks", 6], 
+   ["Cherry Stairs", 4, "Cherry Planks", 6], 
+   ["Oak Stairs", 4, "Oak Planks", 6],
+   ["Dark Oak Stairs", 4, "Dark Oak Planks", 6],
+   ["Spruce Stairs", 4, "Spruce Planks", 6],
+   ["Mangrove Stairs", 4, "Mangrove Planks", 6],
+   ["Jungle Stairs", 4, "Jungle Planks", 6],
+   ["Bamboo Stairs", 4, "Bamboo Planks", 6],
+   ["Bamboo Mosaic Stairs", 4, "Bamboo Mosaic", 6], 
+   ["Crimson Stairs", 4, "Crimson Planks", 6],
+   ["Warped Stairs", 4, "Warped Planks", 6],
+
+   ["Andesite Stairs", 4, "Andesite", 6], 
+   ["Cobblestone Stairs", 4, "Cobblestone", 6], 
+   ["Blackstone Stairs", 4, "Blackstone", 6],
+   ["Brick Stairs", 4, "Bricks", 6],
+   ["Cobbled Deepslate Stairs", 4, "Cobbled Deepslate", 6],
+   ["Cut Copper Stairs", 4, "Cut Copper", 6],
+   ["Dark Prismarine Stairs", 4, "Dark Prismarine", 6],
+   ["Diorite Stairs", 4, "Diorite", 6],
+   ["Deepslate Brick Stairs", 4, "Deepslate Brick", 6],
+   ["Deepslate Tile Stairs", 4, "Deepslate Tile", 6],
+   ["End Stone Brick Stairs", 4, "End Stone Brick", 6],
+   ["Exposed Cut Copper Stairs", 4, "Exposed Cut Copper", 6],
+   ["Mossy Cobblestone Stairs", 4, "Mossy Cobblestone", 6],
+   ["Mossy Stone Brick Stairs", 4, "Mossy Stone Brick", 6],
+   ["Mud Brick Stairs", 4, "Mud Brick", 6],
+   ["Nether Brick Stairs", 4, "Nether Brick", 6],
+   ["Oxidized Cut Copper Stairs", 4, "Oxidized Cut Copper", 6],
+   ["Polished Andesite Stairs", 4, "Polished Andesite", 6],
+   ["Polished Blackstone Stairs", 4, "Polished Blackstone", 6],
+   ["Polished Blackstone Brick Stairs", 4, "Polished Blackstone Brick", 6],
+   ["Polished Deepslate Stairs", 4, "Polished Deepslate", 6],
+   ["Polished Diorite Stairs", 4, "Polished Deepslate", 6],
+   ["Prismarine Brick Stairs", 4, "Prismarine Brick", 6],
+   ["Purpur Stairs", 4, "Purpur Brick", 6],
+   ["Quartz Stairs", 4, "Quartz", 6],
+   ["Red Nether Brick Stairs", 4, "Red Nether Brick", 6],
+   ["Red Sandstone Stairs", 4, "Red Sandstone", 6],
+   ["Sandstone Stairs", 4, "Sandstone", 6],
+   ["Smooth Quartz Stairs", 4, "Smooth Quartz", 6],
+   ["Smooth Red Sandstone Stairs", 4, "Smooth Red Sandstone", 6],
+   ["Smooth Sandstone Stairs", 4, "Smooth Sandstone", 6],
+   ["Stone Brick Stairs", 4, "Stone Brick", 6],
+   ["Stone Stairs", 4, "Stone", 6],
+   ["Waxed Cut Copper Stairs", 4, "Waxed Cut Copper", 6],
+   ["Waxed Oxidized Cut Copper Stairs", 4, "Waxed Oxidized Cut Copper", 6],
+   ["Waxed Weathered Cut Copper Stairs", 4, "Waxed Weathered Cut Copper", 6],
+   ["Weathered Cut Copper Stairs", 4, "Weathered Cut Copper", 6],
+
+   //Walls
+   ["Andesite Wall", 6, "Andesite", 6], 
+   ["Cobblestone Wall", 6, "Cobblestone", 6], 
+   ["Blackstone Wall", 6, "Blackstone", 6], 
+   ["Cobbled Deepslate Wall", 6, "Cobbled Deepslate", 6], 
+   ["Deepslate Brick Wall", 6, "Deepslate Brick", 6], 
+   ["Deepslate Tile Wall", 6, "Deepslate Tile", 6], 
+   ["Diorite Wall", 6, "Diorite", 6], 
+   ["Mossy Cobblestone Wall", 6, "Mossy Cobblestone", 6], 
+   ["Mossy Stone Brick Wall", 6, "Mossy Stone Brick", 6], 
+   ["Mud Brick Wall", 6, "Mud Brick", 6], 
+   ["Nether Brick Wall", 6, "Nether Brick", 6], 
+   ["Polished Blackstone Brick Wall", 6, "Polished Blackstone Brick", 6], 
+   ["Polished Blackstone Wall", 6, "Polished Blackstone", 6], 
+   ["Polished Deepslate Wall", 6, "Polished Deepslate ", 6], 
+   ["Prismarine Wall", 6, "Prismarine", 6], 
+   ["Sandstone Wall", 6, "Sandstone", 6],
+   ["Red Sandstone Wall", 6, "Red Sandstone", 6],
+   ["Red Nether Brick Wall", 6, "Red Nether Brick", 6],
+   ["Stone Brick Wall", 6, "Stone Brick", 6], 
+
+
+
+
+  //Gates
 
   ["Acacia Gate", 1, "Acacia Planks", 2, "Sticks", 4],
   ["Birch Gate", 1, "Birch Planks", 2, "Sticks", 4],
+  ["Cherry Gate", 1, "Cherry Planks", 2, "Sticks", 4],
   ["Oak Gate", 1, "Oak Planks", 2, "Sticks", 4],
   ["Dark Oak Gate", 1, "Oak Planks", 2, "Sticks", 4],
   ["Spruce Gate", 1, "Spruce Planks", 2, "Sticks", 4],
   ["Jungle Gate", 1, "Jungle Planks", 2, "Sticks", 4],
   ["Mangrove Gate", 1, "Mangrove Planks", 2, "Sticks", 4],
+  ["Bamboo Gate", 1, "Bamboo Planks", 2, "Sticks", 4],
   ["Crimson Gate", 1, "Crimson Planks", 2, "Sticks", 4],
   ["Warped Gate", 1, "Warped Planks", 2, "Sticks", 4],
-
-  ["Acacia Fence", 3, "Acacia Planks", 4, "Sticks", 2] , 
+  //Fences
+  ["Acacia Fence", 3, "Acacia Planks", 4, "Sticks", 2], 
+  ["Birch Fence", 3, "Birch Planks", 4, "Sticks", 2], 
+  ["Oak Fence", 3, "Oak Planks", 4, "Sticks", 2], 
+  ["Cherry Fence", 3, "Oak Planks", 4, "Sticks", 2], 
+  ["Dark Oak Fence", 3, "Dark Oak Planks", 4, "Sticks", 2], 
+  ["Spruce Fence", 3, "Spruce Planks", 4, "Sticks", 2], 
+  ["Jungle Fence", 3, "Jungle Planks", 4, "Sticks", 2], 
+  ["Mangrove Fence", 3, "Mangrove Planks", 4, "Sticks", 2], 
+  ["Crimson Fence", 3, "Crimson Planks", 4, "Sticks", 2], 
+  ["Warped Fence", 3, "Warped Planks", 4, "Sticks", 2], 
+  ["Bamboo Fence", 3, "Bamboo Planks", 4, "Sticks", 2], 
+  //hanging signs
   ["Acacia Hanging Sign", 6, "Iron Chains", 2, "Stripped Acacia Logs", 6], 
+  ["Birch Hanging Sign", 6, "Iron Chains", 2, "Stripped Birch Logs", 6], 
+  ["Oak Hanging Sign", 6, "Iron Chains", 2, "Stripped Oak Logs", 6], 
+  ["Cherry Hanging Sign", 6, "Iron Chains", 2, "Stripped Cherry Logs", 6], 
+  ["Dark Oak Hanging Sign", 6, "Iron Chains", 2, "Stripped Dark Oak Logs", 6], 
+  ["Spruce Hanging Sign", 6, "Iron Chains", 2, "Stripped Spruce Logs", 6], 
+  ["Jungle Hanging Sign", 6, "Iron Chains", 2, "Stripped Jungle Logs", 6], 
+  ["Mangrove Hanging Sign", 6, "Iron Chains", 2, "Stripped Mangrove Logs", 6], 
+  ["Crimson Hanging Sign", 6, "Iron Chains", 2, "Stripped Crimson Logs", 6], 
+  ["Warped Hanging Sign", 6, "Iron Chains", 2, "Stripped Warped Logs", 6], 
+  ["Bamboo Hanging Sign", 6, "Iron Chains", 2, "Stripped Bamboo", 6], 
 
 //Add other fences and signs
 
