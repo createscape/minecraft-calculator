@@ -236,10 +236,11 @@
   }
   
   //To Do List:
-  // Fix math for doors, fences, hanging signs, sticks
   // Add data for different recipes
-  // Design elements
   // Device Testing
+  // Domain Name
+  // Rotate background image?
+  // Optimize
   
  
   

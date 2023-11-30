@@ -1,16 +1,29 @@
 body {
   background: url(../img/wallpaper_minecraft_island_2560x1440.png) no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-  background-position: fixed;
+  padding-bottom: 50px;
+ 
 }
-
-section {
+.content h1 {font-size: 75px; text-shadow: 4px 4px 1px #08488D;}
+.subtitle {font-size: 35px; text-shadow: 3px 3px 1px #08488D;}
+.content h1, .content h2, .content h3, .content p {color: #fff; line-height: 150%;}
+a {color: #FFF699;}
+a:hover {color: #fff;}
+section.calc {
   min-height: 100vh;
 }
-
+#build-list-button .button {
+  background: #FCBB4C;
+  color: #08488D;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+}
 .calculator {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(8, 72, 141, 0.9);
   border-radius: 12px;
+  color: #fff;
   
 }
 #build-list-button {
@@ -51,10 +64,13 @@ section {
 /*General Form Styles*/
 .input.number {
   width: 60px;
-  font-size: 18px;
+  font-size: 20px;
   padding: 1.16rem 0;
 }
 .input.item-names {
   width: 250px;
 }
 
+/*Footer */
+footer p {text-align: center;}
+#donate {width: 100px; margin: 0 auto; display: block;}

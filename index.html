@@ -10,9 +10,9 @@
   </head>
   
   <body>
-    <section class="section content">
+    <section class="section content mb-0 calc">
       <div class="container">
-        <div class="columns is-vcentered">
+        <div class="columns is-vcentered has-text-centered">
   
           <div class="column">
   
@@ -20,17 +20,21 @@
               Minecraft Calculator
             </h1>
             <p class="subtitle">
-              Calculate supplies for minecraft build.
+              Generate a supplies list for your next minecraft build.
             </p>
           </div>
         </div>
         <div class="calculator p-6">
   
-          <div class="columns is-vcentered">
-  
+          <div class="columns is-vcentered has-text-centered">
+            <div class="column is-12">
+              <h3>Do you love creating awesome mega-builds with minecraft survival?  Try this free calculator to generate a list of supplies for your next project.</h3>
+            </div>
+          </div>
+            <div class="columns is-vcentered">
             <div class="column is-5">
   
-              <h2>Choose Your Items</h2>
+              <h2>Choose Your Items:</h2>
               <form>
                 <fieldset>
                   <legend></legend>
@@ -50,7 +54,7 @@
                           <input type="number" name="number" id="item-number-1" min=0 value=1 class="input number">
                         </div>
                         <div class="control">
-                          <input type="button" value="+" onclick="newRow()" class="new-row button" />
+                          <input type="button" value="Add Item" onclick="newRow()" class="new-row button" />
                         </div>
                       </div>
                     </div>
@@ -61,12 +65,12 @@
               </form>
             </div>
             <div class="column is-2" id="build-list-button">
-              <input type="submit" id="submit"  value="Get Build List ->" onclick="displayBuildList()" class="button m-5" />
+              <input type="submit" id="submit"  value="Generate List" onclick="displayBuildList()" class="button m-5" />
   
-              <input type="submit" id="submit"  value="Clear Build List ->" onclick="clearBuildList()" class="button m-5" />
+              <input type="submit" id="submit"  value="Clear List" onclick="clearBuildList()" class="button m-5" />
             </div>
             <div class="column  is-5">
-              <h2>Required Items List:</h2>
+              <h2>Crafting Ingredients List:</h2>
   
               <textarea id="output" name="output" class="textarea" rows="20"></textarea>
   
@@ -76,7 +80,21 @@
         </div>
       </div>
     </section>
-   
+   <section>
+    <div class="container">
+    <footer class="content calculator p-6 ">
+    
+      <form action="https://www.paypal.com/donate" method="post" target="_top" id="donate">
+        <input type="hidden" name="hosted_button_id" value="WYLQRXUPM2L7L" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+        <img alt="" border="0" src="https://www.paypal.com/en_CA/i/scr/pixel.gif" width="1" height="1" />
+        </form>
+      <p>Free Minecraft Calculator by <a href="https://www.createscape.ca">Createscape Design Studio</a></p>
+      
+        
+    </footer>
+  </div>
+   </section>
     <script
   src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
   integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="

@@ -16,6 +16,27 @@ let itemList = [
  //Other building materials
   ["Bricks", 1, "Brick", 4], 
   ["Painting", 1, "Wool", 1, "Sticks", 8], 
+  ["Paper", 3, "Sugarcane", 3], 
+  ["Book", 1, "Paper", 3, "Leather", 1], 
+  ["Bookshelf", 1, "Books", 3, "Planks", 6], 
+  ["Scaffolding", 6, "String", 1, "Bamboo", 6], 
+  ["Barrel", 1, "Planks", 6, "Slabs", 2], 
+  ["Enchanting Table", 1, "Obsidian", 3, "Diamonds", 2, "Books", 1], 
+  ["Anvil", 1, "Iron Ingots", 4, "Iron Blocks", 3], 
+  ["Glass Pane", 16, "Glass", 6],
+  ["Ender Chest", 1, "Obsidian", 8, "Eye of Ender", 1],  
+  ["Iron Bars", 16, "Iron Ingots", 6], 
+  ["Banner", 1, "Wool", 6],
+  ["Item Frame", 1, "Sticks", 8, "Leather", 1],
+  ["Armor Stand", 1, "Sticks", 6, "Stone Slab", 1],
+  ["Soul Torch", 4, "Coal", 1, "Stick", 1, "Soul Sand", 1], 
+  ["Lantern", 1, "Iron Nuggets", 8, "Torch", 1],
+  ["Soul Lantern", 1, "Iron Nuggets", 8, "Soul Torch", 1],
+  ["Campfire", 1, "Coal", 1, "Stick", 3, "Logs", 3], 
+  ["Soul Campfire", 1, "Soul Sand", 1, "Stick", 3, "Logs", 3],
+  //Add Glass Pane colours
+  //Add Banner Colours
+
   
 
   //Beds
@@ -29,6 +50,7 @@ let itemList = [
   ["Green Bed", 1, "Green Wool", 3, "Planks", 3], 
   ["Lime Bed", 1, "Lime Wool", 3, "Planks", 3], 
   ["Black Bed", 1, "Black Wool", 3, "Planks", 3], 
+  ["Brown Bed", 1, "Brown Wool", 3, "Planks", 3], 
   ["White Bed", 1, "White Wool", 3, "Planks", 3], 
   ["Gray Bed", 1, "Gray Wool", 3, "Planks", 3], 
   ["Cyan Bed", 1, "Cyan Wool", 3, "Planks", 3],
@@ -235,6 +257,7 @@ let itemList = [
 //All the signs are done
 
   //Redstone Items
+
   ["Observer", 1, "Cobblestone", 6, "Redstone Dust", 2, "Nether Quartz", 1],
   ["Acacia Button", 1, "Acacia Planks", 1],
 
