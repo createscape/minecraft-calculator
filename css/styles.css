@@ -5,8 +5,10 @@ body {
   padding-bottom: 50px;
 }
 .content h1 {
-  font-size: 75px;
+  font-size: 85px;
   text-shadow: 4px 4px 1px #08488d;
+  font-family: 'Minecraft', sans-serif;
+  font-weight: normal;
 }
 .subtitle {
   font-size: 35px;

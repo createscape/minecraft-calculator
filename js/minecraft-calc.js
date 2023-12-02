@@ -1,3 +1,6 @@
+/* Copyright 2023 Createscape Design Studio - https://www.createscape.ca */
+
+
 //Add Icons to Drop downs -  ItemList values have to be same name as images
   function formatBlockIcon (block) {
     if (!block.id) {
