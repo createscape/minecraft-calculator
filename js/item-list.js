@@ -21,16 +21,15 @@ let itemList = [
   ["Barrel", 1, "Planks", 6, "Slabs", 2], 
   ["Enchanting Table", 1, "Obsidian", 3, "Diamonds", 2, "Books", 1], 
   ["Anvil", 1, "Iron Ingots", 4, "Iron Blocks", 3], 
-  ["Glass Pane", 16, "Glass", 6],
   ["Ender Chest", 1, "Obsidian", 8, "Eye of Ender", 1],  
   ["Iron Bars", 16, "Iron Ingots", 6], 
   ["Item Frame", 1, "Sticks", 8, "Leather", 1],
   ["Armor Stand", 1, "Sticks", 6, "Stone Slab", 1],
-  ["Soul Torch", 4, "Coal", 1, "Stick", 1, "Soul Sand", 1], 
+  ["Soul Torch", 4, "Coal", 1, "Sticks", 1, "Soul Sand", 1], 
   ["Lantern", 1, "Iron Nuggets", 8, "Torch", 1],
   ["Soul Lantern", 1, "Iron Nuggets", 8, "Soul Torch", 1],
   ["Campfire", 1, "Coal", 1, "Stick", 3, "Logs", 3], 
-  ["Soul Campfire", 1, "Soul Sand", 1, "Stick", 3, "Logs", 3],
+  ["Soul Campfire", 1, "Soul Sand", 1, "Sticks", 3, "Logs", 3],
   ["Lead", 2, "String", 4, "Slime Ball", 1],
   ["Chain", 1, "Iron Ingot", 1, "Iron Nugget", 2],
 //Workstations
@@ -45,26 +44,55 @@ let itemList = [
 ["Lectern", 1, "Bookcase", 1, "Wooden Slab", 4],
 ["Loom", 1, "String", 2, "Planks", 2],
 ["Beehive", 1, "Honeycomb", 3, "Planks", 6],
-
-
-
-
-  //Add Glass Pane colours
-  //Add Banner Colours
+//Stained Glass
+["White Stained Glass", 8, "Glass", 8, "White Dye", 1],
+["Blue Stained Glass", 8, "Glass", 8, "Blue Dye", 1],
+["Light Blue Stained Glass", 8, "Glass", 8, "Light Blue Dye", 1],
+["Red Stained Glass", 8, "Glass", 8, "Red Dye", 1],
+["Pink Stained Glass", 8, "Glass", 8, "Pink Dye", 1],
+["Purple Stained Glass", 8, "Glass", 8, "Purple Dye", 1],
+["Orange Stained Glass", 8, "Glass", 8, "Orange Dye", 1],
+["Yellow Stained Glass", 8, "Glass", 8, "Yellow Dye", 1],
+["Lime Stained Glass", 8, "Glass", 8, "Lime Dye", 1],
+["Magenta Stained Glass", 8, "Glass", 8, "Magenta Dye", 1],
+["Cyan Stained Glass", 8, "Glass", 8, "Cyan Dye", 1],
+["Black Stained Glass", 8, "Glass", 8, "Black Dye", 1],
+["Gray Stained Glass", 8, "Glass", 8, "Gray Dye", 1],
+["Brown Stained Glass", 8, "Glass", 8, "Brown Dye", 1],
+["Light Gray Stained Glass", 8, "Glass", 8, "Light Gray Dye", 1],
+//Glass Panes
+  ["White Stained Glass Pane", 16, "White Stained Glass", 6],
+  ["Blue Stained Glass Pane", 16, "Blue Stained Glass", 6],
+  ["Light Blue Stained Glass Pane", 16, "Light Blue Stained Glass", 6],
+  ["Red Stained Glass Pane", 16, "Red Stained Glass", 6],
+  ["Pink Stained Glass Pane", 16, "Pink Stained Glass", 6],
+  ["Purple Stained Glass Pane", 16, "Purple Stained Glass", 6],
+  ["Orange Stained Glass Pane", 16, "Orange Stained Glass", 6],
+  ["Yellow Stained Glass Pane", 16, "Yellow Stained Glass", 6],
+  ["Lime Stained Glass Pane", 16, "Lime Stained Glass", 6],
+  ["Magenta Stained Glass Pane", 16, "Magenta Stained Glass", 6],
+  ["Cyan Stained Glass Pane", 16, "Cyan Stained Glass", 6],
+  ["Black Stained Glass Pane", 16, "Black Stained Glass", 6],
+  ["Gray Stained Glass Pane", 16, "Gray Stained Glass", 6],
+  ["Brown Stained Glass Pane", 16, "Brown Stained Glass", 6],
+  ["Light Gray Stained Glass Pane", 16, "Light Gray Stained Glass", 6],
+//Banners
    ["White Banner", 1, "White Wool", 6],
    ["Blue Banner", 1, "Blue Wool", 6],
+   ["Cyan Banner", 1, "Cyan Wool", 6],
    ["Light Blue Banner", 1, "Light Blue Wool", 6],
    ["Red Banner", 1, "Red Wool", 6],
+   ["Pink Banner", 1, "Pink Wool", 6],
+   ["Purple Banner", 1, "Purple Wool", 6],
    ["Orange Banner", 1, "Orange Wool", 6],
-   ["Blue Banner", 1, "Blue Wool", 6],
-   ["Blue Banner", 1, "Blue Wool", 6],
-   ["Blue Banner", 1, "Blue Wool", 6],
-   ["Blue Banner", 1, "Blue Wool", 6],
-   ["Blue Banner", 1, "Blue Wool", 6],
-   ["Blue Banner", 1, "Blue Wool", 6],
-   ["Blue Banner", 1, "Blue Wool", 6],
-  
-
+   ["Yellow Banner", 1, "Yellow Wool", 6],
+   ["Lime Banner", 1, "Lime Wool", 6],
+   ["Green Banner", 1, "Green Wool", 6],
+   ["Magenta Banner", 1, "Magenta Wool", 6],
+   ["Light Gray Banner", 1, "Gray Wool", 6],
+   ["Gray Banner", 1, "Gray Wool", 6],
+   ["Black Banner", 1, "Black Wool", 6],
+   ["Brown Banner", 1, "Brown Wool", 6],
   //Beds
   ["Blue Bed", 1, "Blue Wool", 3, "Planks", 3], 
   ["Light Blue Bed", 1, "Light Blue Wool", 3, "Planks", 3], 
@@ -78,11 +106,10 @@ let itemList = [
   ["Black Bed", 1, "Black Wool", 3, "Planks", 3], 
   ["Brown Bed", 1, "Brown Wool", 3, "Planks", 3], 
   ["White Bed", 1, "White Wool", 3, "Planks", 3], 
+  ["Light Gray Bed", 1, "Gray Wool", 3, "Planks", 3],
   ["Gray Bed", 1, "Gray Wool", 3, "Planks", 3], 
   ["Cyan Bed", 1, "Cyan Wool", 3, "Planks", 3],
   ["Pink Bed", 1, "Pink Wool", 3, "Planks", 3],
-  
-
   //Slabs
   ["Spruce Slab", 6, "Spruce Planks", 3],  
   ["Oak Slab", 6, "Oak Planks", 3],
@@ -136,7 +163,6 @@ let itemList = [
   ["Waxed Exposed Cut Copper Slab", 6, "Waxed Exposed Cut Copper", 3],
   ["Waxed Weathered Cut Copper Slab", 6, "Waxed Weathered Cut Copper", 3],
   ["Waxed Oxidized Cut Copper Slab", 6, "Waxed Oxidized Cut Copper", 3],
-
   //Doors
   ["Acacia Door", 3, "Acacia Planks", 6], 
   ["Birch Door", 3, "Birch Planks", 6], 
@@ -162,8 +188,6 @@ let itemList = [
   ["Crimson Trapdoor", 3, "Crimson Planks", 6],
   ["Warped Trapdoor", 3, "Warped Planks", 6],
   ["Iron Trapdoor", 1, "Iron Ingots", 4],
-
-
    //Stairs
    ["Acacia Stairs", 4, "Acacia Planks", 6], 
    ["Birch Stairs", 4, "Birch Planks", 6], 
@@ -177,7 +201,6 @@ let itemList = [
    ["Bamboo Mosaic Stairs", 4, "Bamboo Mosaic", 6], 
    ["Crimson Stairs", 4, "Crimson Planks", 6],
    ["Warped Stairs", 4, "Warped Planks", 6],
-
    ["Andesite Stairs", 4, "Andesite", 6], 
    ["Cobblestone Stairs", 4, "Cobblestone", 6], 
    ["Blackstone Stairs", 4, "Blackstone", 6],
@@ -215,7 +238,6 @@ let itemList = [
    ["Waxed Oxidized Cut Copper Stairs", 4, "Waxed Oxidized Cut Copper", 6],
    ["Waxed Weathered Cut Copper Stairs", 4, "Waxed Weathered Cut Copper", 6],
    ["Weathered Cut Copper Stairs", 4, "Weathered Cut Copper", 6],
-
    //Walls
    ["Andesite Wall", 6, "Andesite", 6], 
    ["Cobblestone Wall", 6, "Cobblestone", 6], 
@@ -236,12 +258,7 @@ let itemList = [
    ["Red Sandstone Wall", 6, "Red Sandstone", 6],
    ["Red Nether Brick Wall", 6, "Red Nether Brick", 6],
    ["Stone Brick Wall", 6, "Stone Brick", 6], 
-
-
-
-
   //Gates
-
   ["Acacia Gate", 1, "Acacia Planks", 2, "Sticks", 4],
   ["Birch Gate", 1, "Birch Planks", 2, "Sticks", 4],
   ["Cherry Gate", 1, "Cherry Planks", 2, "Sticks", 4],
@@ -277,10 +294,7 @@ let itemList = [
   ["Crimson Hanging Sign", 6, "Iron Chains", 2, "Stripped Crimson Logs", 6], 
   ["Warped Hanging Sign", 6, "Iron Chains", 2, "Stripped Warped Logs", 6], 
   ["Bamboo Hanging Sign", 6, "Iron Chains", 2, "Stripped Bamboo", 6], 
-
 //Add other fences and signs
-
-
 ["Birch Sign", 3, "Birch Planks", 6, "Sticks", 1], 
 ["Acacia Sign", 3, "Acacia Planks", 6, "Sticks", 1],
 ["Oak Sign", 3, "Oak Planks", 6, "Sticks", 1],
@@ -292,22 +306,18 @@ let itemList = [
 ["Bamboo Sign", 3, "Bamboo Planks", 6, "Sticks", 1],
 ["Crimson Sign", 3, "Crimson Planks", 6, "Sticks", 1],
 ["Warped Sign", 3, "Warped Planks", 6, "Sticks", 1],
-
-//All the signs are done
-
   //Redstone Items
-
   ["Observer", 1, "Cobblestone", 6, "Redstone Dust", 2, "Nether Quartz", 1],
   ["Acacia Button", 1, "Acacia Planks", 1],
   // ["Pressure Plate", 1, "Planks", 2],
   // ["Weighted Pressure Plate", 1, "Iron Ingot", 2],
   ["Lever", 1, "Stick", 1, "Cobblestone", 1],
-  ["Redstone Torch", 1, "Redstone Dust", 1, "Stick", 1],
+  ["Redstone Torch", 1, "Redstone Dust", 1, "Sticks", 1],
   ["Button", 1, "Plank", 1],
-  ["Piston", 1, "Cobblestone", 4, "Iron Ingot", 1, "Restone Dust", 1, "Planks", 3],
+  ["Piston", 1, "Cobblestone", 4, "Iron Ingot", 1, "Redstone Dust", 1, "Planks", 3],
   ["Sticky Piston", 1, "Slime Ball", 1, "Piston", 1],
-  ["Repeater", 1, "Stone", 6, "Redstone Dust", 1, "Restone Torch", 2],
-  ["Dispenser", 1, "Cobblestone", 7, "Bow", 1, "Restone Dust", 1],
+  ["Repeater", 1, "Stone", 6, "Redstone Dust", 1, "Redstone Torch", 2],
+  ["Dispenser", 1, "Cobblestone", 7, "Bow", 1, "Redstone Dust", 1],
   ["Jukebox", 1, "Planks", 8, "Diamond", 1],
   ["Minecart", 1, "Iron Ingots", 5],
   // ["Powered Minecart", 1, "Minecart", 1, "Furnace", 1],
@@ -320,21 +330,27 @@ let itemList = [
   ["Redstone Lamp", 1, "Redstone Dust", 4, "Glowstone", 1],
   ["Tripwire Hook", 1, "Planks", 1, "Iron Ingot", 1, "Stick", 1],
   ["Daylight Detector", 1, "Glass", 3, "Nether Quartz", 3, "Slabs", 3],
-  ["Dropper", 1, "Cobblestone", 7, "Restone Dust", 1],
+  ["Dropper", 1, "Cobblestone", 7, "Redstone Dust", 1],
   ["Hopper", 1, "Iron Ingots", 5, "Chest", 1],
   ["Hopper Minecart", 1, "Hopper", 1, "Minecart", 1],
   ["TNT", 1, "Sand", 4, "Gunpowder", 5],
   ["TNT Minecart", 1, "Minecart", 1, "TNT", 1],
   ["Comparator", 1, "Cobblestone", 3, "Redstone Torch", 3, "Nether Quartz", 1],
   ["Trapped Chest", 1, "Chest", 1, "Tripwire Hook", 1],
-  ["Target", 1, "Hay Bale", 1, "Restone Dust", 4],
+  ["Target", 1, "Hay Bale", 1, "Redstone Dust", 4],
   ["Calibrated Sculk Sensor", 1, "Amethyst Shard", 3, "Sculk Sensor", 1],
+
 
 
 
   //Food Items
   ["Hay Block", 1, "Wheat", 9],
   ["Cake", 1, "Wheat", 3, "Milk Bucket", 3, "Sugar", 2, "Eggs", 1],
+  ["Bread", 1, "Wheat", 3],
+  ["Cookie", 1, "Wheat", 2, "Cocoa Beans", 1],
+
+
+
 
 
   //Tools
@@ -400,15 +416,9 @@ let itemList = [
   ["Shulker Box", 1, "Chest", 1, "Shulker", 2],
   ["Spyglass", 1, "Echo Shard", 8, "Compass", 1],
   ["Brush", 1, "Feather", 1, "Copper Ingot", 1, "Sticks", 1],
+  ["Conduit", 1, "Nautilus Shell", 8, "Heart of the Sea", 1],
+  ["Turtle Helmet", 1, "Scute", 5],
+  ["Crossbow", 1, "String", 2, "Iron Ingot", 1, "Tripwire Hook", 1, "Sticks", 3],
   
-
-
-
-
-  //Stone Items
-    
-   
-   
-    
     
   ];
