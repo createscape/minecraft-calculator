@@ -430,15 +430,41 @@ let itemList = [
 
 
   //Dyes
-
-
-
-  //Misc.
-
-
+  ["Blue Dye", 1, "Lapis Lazuli or Cornflower", 1],
+  ["Light Blue Dye", 1, "Blue Dye", 1, "White Dye", 1],
+  ["Purple Dye", 1, "Blue Dye", 1, "Red Dye", 1],
+  ["Cyan Dye", 1, "Blue Dye", 1, "Green Dye", 1],
+  ["Pink Dye", 1, "White Dye", 1, "Red Dye", 1],
+  ["Yellow Dye", 1, "Dandelion or Sunflower", 1],
+  ["Green Dye", 1, "Cactus", 1],
+  ["Lime Dye", 1, "Green Dye", 1, "White Dye", 1],
+  ["Red Dye", 1, "Poppy", 1],
+  ["Orange Dye", 1, "Yellow Dye", 1, "Red Dye", 1],
+  ["Magenta Dye", 1, "Purple Dye", 1, "Pink Dye", 1],
+  ["Gray Dye", 1, "White Dye", 1, "Black Dye", 1],
+  ["Light Gray Dye", 1, "Gray Dye", 1, "White Dye", 1],
+  ["Brown Dye", 1, "Cocoa Beans", 1],
+  ["Black Dye", 1, "Ink Sac", 1],
+  ["White Dye", 1, "Bone Meal", 1],
   //Brewing
 
 
   //Wool
+  ["Blue Wool", 1, "Blue Dye", 1, "White Wool", 1],
+  ["Light Blue Wool", 1, "Light Blue Dye", 1, "White Wool", 1],
+  ["Purple Wool", 1, "Purple Dye", 1, "White Wool", 1],
+  ["Cyan Wool", 1, "Cyan Dye", 1, "White Wool", 1],
+  ["Pink Wool", 1, "Pink Dye", 1, "White Wool", 1],
+  ["Yellow Wool", 1, "Yellow Dye", 1, "White Wool", 1],
+  ["Green Wool", 1, "Green Dye", 1, "White Wool", 1],
+  ["Lime Wool", 1, "Lime Dye", 1, "White Wool", 1],
+  ["Red Wool", 1, "Red Dye", 1, "White Wool", 1],
+  ["Orange Wool", 1, "Orange Dye", 1, "White Wool", 1],
+  ["Magenta Wool", 1, "Magenta Dye", 1, "White Wool", 1],
+  ["Gray Wool", 1, "Gray Dye", 1, "White Wool", 1],
+  ["Light Gray Wool", 1, "Light Gray Dye", 1, "White Wool", 1],
+  ["Brown Wool", 1, "Brown Dye", 1, "White Wool", 1],
+  ["Black Wool", 1, "Black Dye", 1, "White Wool", 1],
+
     
   ];
