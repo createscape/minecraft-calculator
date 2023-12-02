@@ -7,7 +7,7 @@ body {
 }
 .content h1 {font-size: 75px; text-shadow: 4px 4px 1px #08488D;}
 .subtitle {font-size: 35px; text-shadow: 3px 3px 1px #08488D;}
-.content h1, .content h2, .content h3, .content p {color: #fff; line-height: 150%;}
+.content h1, .content h2, .content h3, .content p, .content h5 {color: #fff; line-height: 150%;}
 a {color: #FFF699;}
 a:hover {color: #fff;}
 section.calc {

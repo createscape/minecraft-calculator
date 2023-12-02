@@ -348,6 +348,12 @@ let itemList = [
   ["Cake", 1, "Wheat", 3, "Milk Bucket", 3, "Sugar", 2, "Eggs", 1],
   ["Bread", 1, "Wheat", 3],
   ["Cookie", 1, "Wheat", 2, "Cocoa Beans", 1],
+  ["Bowl", 1, "Planks", 3],
+  ["Mushroom Stew", 1, "Bowl", 1, "Brown Mushroom", 1, "Red Mushroom", 1],
+  ["Golden Apple", 1, "Apple", 1, "Gold Ingots", 8],
+  ["Golden Carrot", 1, "Carrot", 1, "Gold Nuggets", 8],
+  ["Glistering Melon Slice", 1, "Melon Slice", 1, "Gold Nuggets", 8],
+  ["Pumpkin Pie", 1, "Pumpkin", 1, "Sugar", 1, "Egg", 1],
 
 
 
@@ -420,5 +426,19 @@ let itemList = [
   ["Turtle Helmet", 1, "Scute", 5],
   ["Crossbow", 1, "String", 2, "Iron Ingot", 1, "Tripwire Hook", 1, "Sticks", 3],
   
+  //Other Blocks - Decorative and Building Blocks
+
+
+  //Dyes
+
+
+
+  //Misc.
+
+
+  //Brewing
+
+
+  //Wool
     
   ];
