@@ -243,9 +243,7 @@
   
   //To Do List:
   // Add data for different recipes
-  // Device Testing
   // Domain Name
-  // Rotate background image?
   // Optimize
   // Minify
   

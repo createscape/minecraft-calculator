@@ -4,7 +4,7 @@ body {
       rgba(2, 0, 36, 1) 0%,
       rgba(2, 32, 72, 0) 77%
     ),
-    url(../img/wallpaper_minecraft_island_2560x1440.png) no-repeat;
+    #1d89dc url(../img/wallpaper_minecraft_island_2560x1440.png) no-repeat;
   background-attachment: fixed;
   background-size: cover;
   padding-bottom: 20px;
@@ -14,7 +14,6 @@ body {
   text-shadow: 4px 4px 1px #08488d;
   font-family: "Minecraft", sans-serif;
   font-weight: normal;
-
 }
 
 .subtitle {
@@ -50,10 +49,9 @@ a:hover {
   min-width: 150px;
 }
 
-
 .button:hover {
   background: #fff;
-  color:#08488d;
+  color: #08488d;
 }
 .calculator {
   background-color: rgba(8, 72, 141, 0.9);
@@ -106,6 +104,7 @@ a:hover {
   font-size: 20px;
   padding: 1.16rem 0;
 }
+
 /*Footer */
 footer p {
   text-align: center;
@@ -120,7 +119,6 @@ footer p {
   .section {
     padding: 1rem 0.75rem;
   }
-
 }
 @media screen and (min-width: 768px) {
   .content h1 {
