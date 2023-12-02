@@ -247,6 +247,7 @@
   // Domain Name
   // Rotate background image?
   // Optimize
+  // Minify
   
  
   

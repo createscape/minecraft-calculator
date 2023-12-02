@@ -1,17 +1,23 @@
 body {
-  background: url(../img/wallpaper_minecraft_island_2560x1440.png) no-repeat;
+  background: linear-gradient(
+      180deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(2, 32, 72, 0) 77%
+    ),
+    url(../img/wallpaper_minecraft_island_2560x1440.png) no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
+
 .content h1 {
-  font-size: 85px;
   text-shadow: 4px 4px 1px #08488d;
-  font-family: 'Minecraft', sans-serif;
+  font-family: "Minecraft", sans-serif;
   font-weight: normal;
+
 }
+
 .subtitle {
-  font-size: 35px;
   text-shadow: 3px 3px 1px #08488d;
 }
 .content h1,
@@ -22,26 +28,38 @@ body {
   color: #fff;
   line-height: 150%;
 }
+.content h2 {
+  font-size: 20px;
+}
+.content h3 {
+  font-size: 18px;
+}
 a {
   color: #fff699;
 }
 a:hover {
   color: #fff;
 }
-section.calc {
-  min-height: 100vh;
-}
+
 .button {
   background: #fcbb4c;
   color: #08488d;
   border: none;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 15px;
+  min-width: 150px;
+}
+
+
+.button:hover {
+  background: #fff;
+  color:#08488d;
 }
 .calculator {
   background-color: rgba(8, 72, 141, 0.9);
   border-radius: 12px;
   color: #fff;
+  padding: 1rem;
 }
 #build-list-button {
   text-align: center;
@@ -81,16 +99,13 @@ section.calc {
 .dropdown-text {
   line-height: 30px;
 }
+
 /*General Form Styles*/
 .input.number {
   width: 60px;
   font-size: 20px;
   padding: 1.16rem 0;
 }
-.input.item-names {
-  width: 250px;
-}
-
 /*Footer */
 footer p {
   text-align: center;
@@ -99,4 +114,48 @@ footer p {
   width: 100px;
   margin: 0 auto;
   display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .section {
+    padding: 1rem 0.75rem;
+  }
+
+}
+@media screen and (min-width: 768px) {
+  .content h1 {
+    font-size: 65px;
+  }
+  .content h2 {
+    font-size: 24px;
+  }
+  .subtitle {
+    font-size: 35px;
+  }
+  .button {
+    font-size: 18px;
+  }
+  .input.item-names {
+    width: 250px;
+  }
+  .content h3 {
+    font-size: 22px;
+  }
+  .calculator {
+    padding: 1rem;
+  }
+  .section {
+    padding: 1.5rem 1rem;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .content h1 {
+    font-size: 85px;
+  }
+  .button {
+    min-width: 170px;
+  }
+  .calculator {
+    padding: 3rem;
+  }
 }
