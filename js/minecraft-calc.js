@@ -9,10 +9,12 @@
     return $minecraftIcon;
   };
 
+
   // Apply Select2 to First Select Field
    $(document).ready(function() {
      $('#item-names-1').select2({
-      templateResult: formatBlockIcon
+      templateResult: formatBlockIcon,
+      templateSelection: formatBlockIcon
      });
    });
 
@@ -45,7 +47,7 @@
     let newRow =
       '<div class="is-12 column"><div class="field has-addons"> <div class="control has-icons-left">  <select name="item" id="item-names-' +
       rowCount +
-      '" class="item-names input"></select>  <span class="icon is-medium is-left">  <i class="icon"></i></span>  </div>  <div class="control"> <input type="number" class="input number" name="number" id="item-number-' +
+      '" class="item-names input" ></select> </div>  <div class="control"> <input type="number" class="input number" name="number" id="item-number-' +
       rowCount +
       '" min=0 value=1></div></div>';
     let formColumns = document.getElementById("items"); //Get the Columns Div
@@ -65,7 +67,8 @@
 
   //Add Select2 to the new rows now that we have the ID
     $(htmlId).select2({
-      templateResult: formatBlockIcon
+      templateResult: formatBlockIcon,
+      templateSelection: formatBlockIcon
 
     });
 

@@ -3,19 +3,35 @@ body {
   background-attachment: fixed;
   background-size: cover;
   padding-bottom: 50px;
- 
 }
-.content h1 {font-size: 75px; text-shadow: 4px 4px 1px #08488D;}
-.subtitle {font-size: 35px; text-shadow: 3px 3px 1px #08488D;}
-.content h1, .content h2, .content h3, .content p, .content h5 {color: #fff; line-height: 150%;}
-a {color: #FFF699;}
-a:hover {color: #fff;}
+.content h1 {
+  font-size: 75px;
+  text-shadow: 4px 4px 1px #08488d;
+}
+.subtitle {
+  font-size: 35px;
+  text-shadow: 3px 3px 1px #08488d;
+}
+.content h1,
+.content h2,
+.content h3,
+.content p,
+.content h5 {
+  color: #fff;
+  line-height: 150%;
+}
+a {
+  color: #fff699;
+}
+a:hover {
+  color: #fff;
+}
 section.calc {
   min-height: 100vh;
 }
-#build-list-button .button {
-  background: #FCBB4C;
-  color: #08488D;
+.button {
+  background: #fcbb4c;
+  color: #08488d;
   border: none;
   font-weight: bold;
   font-size: 20px;
@@ -24,7 +40,6 @@ section.calc {
   background-color: rgba(8, 72, 141, 0.9);
   border-radius: 12px;
   color: #fff;
-  
 }
 #build-list-button {
   text-align: center;
@@ -48,10 +63,13 @@ section.calc {
 
 .select2-container--default
   .select2-selection--singleF
-  .select2-selection__rendered, .select2-container--default .select2-selection--single .select2-selection__rendered {
+  .select2-selection__rendered,
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__rendered {
   line-height: 35px;
 }
-  
+
 .block-icon {
   max-width: 25px;
   height: auto;
@@ -72,5 +90,11 @@ section.calc {
 }
 
 /*Footer */
-footer p {text-align: center;}
-#donate {width: 100px; margin: 0 auto; display: block;}
+footer p {
+  text-align: center;
+}
+#donate {
+  width: 100px;
+  margin: 0 auto;
+  display: block;
+}
