@@ -11,8 +11,6 @@ let itemList = [
   ["Crimson Planks", 4, "Crimson Logs", 1],
   ["Warped Planks", 4, "Warped Logs", 1],
   ["Bamboo Planks", 2, "Blocks of Bamboo", 1],
-
-
  //Other building materials
   ["Bricks", 1, "Brick", 4], 
   ["Painting", 1, "Wool", 1, "Sticks", 8], 
@@ -26,7 +24,6 @@ let itemList = [
   ["Glass Pane", 16, "Glass", 6],
   ["Ender Chest", 1, "Obsidian", 8, "Eye of Ender", 1],  
   ["Iron Bars", 16, "Iron Ingots", 6], 
-  // ["Banner", 1, "Wool", 6],
   ["Item Frame", 1, "Sticks", 8, "Leather", 1],
   ["Armor Stand", 1, "Sticks", 6, "Stone Slab", 1],
   ["Soul Torch", 4, "Coal", 1, "Stick", 1, "Soul Sand", 1], 
@@ -36,8 +33,6 @@ let itemList = [
   ["Soul Campfire", 1, "Soul Sand", 1, "Stick", 3, "Logs", 3],
   ["Lead", 2, "String", 4, "Slime Ball", 1],
   ["Chain", 1, "Iron Ingot", 1, "Iron Nugget", 2],
-
-
 //Workstations
 ["Blast Furnace", 1, "Iron Ingot", 5, "Smooth Stone", 3, "Furnace", 1],
 ["Smoker", 1, "Furnace", 1, "Logs", 4],
@@ -56,7 +51,18 @@ let itemList = [
 
   //Add Glass Pane colours
   //Add Banner Colours
-
+   ["White Banner", 1, "White Wool", 6],
+   ["Blue Banner", 1, "Blue Wool", 6],
+   ["Light Blue Banner", 1, "Light Blue Wool", 6],
+   ["Red Banner", 1, "Red Wool", 6],
+   ["Orange Banner", 1, "Orange Wool", 6],
+   ["Blue Banner", 1, "Blue Wool", 6],
+   ["Blue Banner", 1, "Blue Wool", 6],
+   ["Blue Banner", 1, "Blue Wool", 6],
+   ["Blue Banner", 1, "Blue Wool", 6],
+   ["Blue Banner", 1, "Blue Wool", 6],
+   ["Blue Banner", 1, "Blue Wool", 6],
+   ["Blue Banner", 1, "Blue Wool", 6],
   
 
   //Beds
