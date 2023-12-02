@@ -26,7 +26,7 @@ let itemList = [
   ["Glass Pane", 16, "Glass", 6],
   ["Ender Chest", 1, "Obsidian", 8, "Eye of Ender", 1],  
   ["Iron Bars", 16, "Iron Ingots", 6], 
-  ["Banner", 1, "Wool", 6],
+  // ["Banner", 1, "Wool", 6],
   ["Item Frame", 1, "Sticks", 8, "Leather", 1],
   ["Armor Stand", 1, "Sticks", 6, "Stone Slab", 1],
   ["Soul Torch", 4, "Coal", 1, "Stick", 1, "Soul Sand", 1], 
@@ -34,6 +34,26 @@ let itemList = [
   ["Soul Lantern", 1, "Iron Nuggets", 8, "Soul Torch", 1],
   ["Campfire", 1, "Coal", 1, "Stick", 3, "Logs", 3], 
   ["Soul Campfire", 1, "Soul Sand", 1, "Stick", 3, "Logs", 3],
+  ["Lead", 2, "String", 4, "Slime Ball", 1],
+  ["Chain", 1, "Iron Ingot", 1, "Iron Nugget", 2],
+
+
+//Workstations
+["Blast Furnace", 1, "Iron Ingot", 5, "Smooth Stone", 3, "Furnace", 1],
+["Smoker", 1, "Furnace", 1, "Logs", 4],
+["Cartography Table", 1, "Paper", 2, "Planks", 4],
+["Composter", 1, "Slabs", 7],
+["Fletching Table", 1, "Flint", 2, "Planks", 4],
+["Smithing Table", 1, "Iron Ingot", 2, "Planks", 4],
+// ["Stone Cutter", 1, "Iron Ingot", 1, "Stone", 3],  No Image
+["Grindstone", 1, "Sticks", 2, "Planks", 2, "Stone Slab", 1],
+["Lectern", 1, "Bookcase", 1, "Wooden Slab", 4],
+["Loom", 1, "String", 2, "Planks", 2],
+["Beehive", 1, "Honeycomb", 3, "Planks", 6],
+
+
+
+
   //Add Glass Pane colours
   //Add Banner Colours
 
@@ -123,6 +143,19 @@ let itemList = [
   ["Bamboo Door", 3, "Bamboo Planks", 6],
   ["Crimson Door", 3, "Crimson Planks", 6],
   ["Warped Door", 3, "Warped Planks", 6],
+  //Trap Doors
+  ["Acacia Trapdoor", 3, "Acacia Planks", 6], 
+  ["Birch Trapdoor", 3, "Birch Planks", 6], 
+  ["Cherry Trapdoor", 3, "Cherry Planks", 6], 
+  ["Oak Trapdoor", 3, "Oak Planks", 6],
+  ["Dark Oak Trapdoor", 3, "Dark Oak Planks", 6],
+  ["Spruce Trapdoor", 3, "Spruce Planks", 6],
+  ["Mangrove Trapdoor", 3, "Mangrove Planks", 6],
+  ["Jungle Trapdoor", 3, "Jungle Planks", 6],
+  ["Bamboo Trapdoor", 3, "Bamboo Planks", 6],
+  ["Crimson Trapdoor", 3, "Crimson Planks", 6],
+  ["Warped Trapdoor", 3, "Warped Planks", 6],
+  ["Iron Trapdoor", 1, "Iron Ingots", 4],
 
 
    //Stairs
@@ -260,7 +293,36 @@ let itemList = [
 
   ["Observer", 1, "Cobblestone", 6, "Redstone Dust", 2, "Nether Quartz", 1],
   ["Acacia Button", 1, "Acacia Planks", 1],
-
+  // ["Pressure Plate", 1, "Planks", 2],
+  // ["Weighted Pressure Plate", 1, "Iron Ingot", 2],
+  ["Lever", 1, "Stick", 1, "Cobblestone", 1],
+  ["Redstone Torch", 1, "Redstone Dust", 1, "Stick", 1],
+  ["Button", 1, "Plank", 1],
+  ["Piston", 1, "Cobblestone", 4, "Iron Ingot", 1, "Restone Dust", 1, "Planks", 3],
+  ["Sticky Piston", 1, "Slime Ball", 1, "Piston", 1],
+  ["Repeater", 1, "Stone", 6, "Redstone Dust", 1, "Restone Torch", 2],
+  ["Dispenser", 1, "Cobblestone", 7, "Bow", 1, "Restone Dust", 1],
+  ["Jukebox", 1, "Planks", 8, "Diamond", 1],
+  ["Minecart", 1, "Iron Ingots", 5],
+  // ["Powered Minecart", 1, "Minecart", 1, "Furnace", 1],
+  ["Chest Minecart", 1, "Chest", 1, "Minecart", 1],
+  ["Chest Minecart", 1, "Chest", 1, "Minecart", 1],
+  ["Rail", 16, "Iron Ingots", 6, "Stick", 1],
+  ["Powered Rail", 6, "Gold Ingots", 6, "Stick", 1, "Redstone Dust", 1],
+  ["Detector Rail", 6, "Iron Ingots", 6, "Stone Slab", 1, "Redstone Dust", 1],
+  ["Activator Rail", 6, "Iron Ingots", 6, "Sticks", 2, "Redstone Torch", 1],
+  ["Redstone Lamp", 1, "Redstone Dust", 4, "Glowstone", 1],
+  ["Tripwire Hook", 1, "Planks", 1, "Iron Ingot", 1, "Stick", 1],
+  ["Daylight Detector", 1, "Glass", 3, "Nether Quartz", 3, "Slabs", 3],
+  ["Dropper", 1, "Cobblestone", 7, "Restone Dust", 1],
+  ["Hopper", 1, "Iron Ingots", 5, "Chest", 1],
+  ["Hopper Minecart", 1, "Hopper", 1, "Minecart", 1],
+  ["TNT", 1, "Sand", 4, "Gunpowder", 5],
+  ["TNT Minecart", 1, "Minecart", 1, "TNT", 1],
+  ["Comparator", 1, "Cobblestone", 3, "Redstone Torch", 3, "Nether Quartz", 1],
+  ["Trapped Chest", 1, "Chest", 1, "Tripwire Hook", 1],
+  ["Target", 1, "Hay Bale", 1, "Restone Dust", 4],
+  ["Calibrated Sculk Sensor", 1, "Amethyst Shard", 3, "Sculk Sensor", 1],
 
 
 
@@ -300,6 +362,12 @@ let itemList = [
   ["Netherite Pickaxe", 1, "Netherite Ingots", 3, "Sticks", 2],
   ["Netherite Shovel", 1, "Netherite Ingots", 1, "Sticks", 2],
   ["Netherite Hoe", 1, "Netherite Ingots", 2, "Sticks", 2],
+  ["Bow", 1, "String", 3, "Sticks", 3],
+  ["Shield", 1, "Planks", 6, "Iron Ingots", 1],
+  // ["Horse Armor", 1, "Leather", 7],
+  ["Arrow", 4, "Flint", 1, "Sticks", 1, "Feather", 1],
+  ["Spectral Arrow", 2, "Arrow", 1, "Glowstone Dust", 4],
+  ["Tipped Arrow", 8, "Arrow", 8, "Glowstone Dust", 4],
   ["Torch", 4, "Coal", 1, "Sticks", 1],
   ["Chest", 1, "Planks", 8],
   ["Acacia Boat", 1, "Acacia Planks", 5],
@@ -315,7 +383,17 @@ let itemList = [
   ["Crafting Table", 1, "Planks", 4],
   ["Boat with Chest", 1, "Chest", 1, "Boat", 1],
   ["Furnace", 1, "Cobblestone", 8],
-  ["Ladder", 3, "Sticks", 7] 
+  ["Ladder", 3, "Sticks", 7],
+  ["Fishing Rod", 1, "Sticks", 3, "String", 2],
+  ["Flint and Steel", 1, "Flint", 1, "Steel", 1],
+  ["Shears", 1, "Iron Ingot", 2],
+  ["Bucket", 1, "Iron Ingot", 3],
+  ["Clock", 1, "Gold Ingot", 4, "Redstone Dust", 1],
+  ["Compass", 1, "Iron Ingot", 4, "Redstone Dust", 1],
+  ["Map", 1, "Paper", 8, "Compass", 1],
+  ["Shulker Box", 1, "Chest", 1, "Shulker", 2],
+  ["Spyglass", 1, "Echo Shard", 8, "Compass", 1],
+  ["Brush", 1, "Feather", 1, "Copper Ingot", 1, "Sticks", 1],
   
 
 

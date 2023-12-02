@@ -141,15 +141,15 @@
       if (itemArr[6] && !itemArr[8]) {
         let itemOneRatio = itemArr[3] / itemArr[1];
         let answerDecimalOne = itemOneRatio * itemCount;
-        let answerOneMath = Math.ceil(answerDecimalOne);
+        let answerOneMath = Math.ceil(answerDecimalOne / itemArr[3]) * itemArr[3];
      
         let itemTwoRatio = itemArr[5] / itemArr[1];
         let answerDecimalTwo = itemTwoRatio * itemCount;
-        let answerTwoMath = Math.ceil(answerDecimalTwo);
+        let answerTwoMath = Math.ceil(answerDecimalTwo / itemArr[5]) *  itemArr[5];
       
         let itemThreeRatio = itemArr[7] / itemArr[1];
         let answerDecimalThree = itemThreeRatio * itemCount;
-        let answerThreeMath = Math.ceil(answerDecimalThree); 
+        let answerThreeMath = Math.ceil(answerDecimalThree / itemArr[7]) *  itemArr[7]; 
      
         //Put the items into an array of objects
         let arr1 =  {
