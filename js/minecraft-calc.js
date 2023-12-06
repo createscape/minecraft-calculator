@@ -7,7 +7,7 @@
       return block.text;
     }
     let baseUrl = "icon-images";
-    let $minecraftIcon = $('<span class="dropdown-text"><img src="'+ baseUrl + '/' + block.element.value.toLowerCase().replaceAll(' ', '_') +'.png" class="block-icon '+ block.text +'"/>'+ block.text + ' </span>');
+    let $minecraftIcon = $('<span class="dropdown-text"><img src="'+ baseUrl + '/' + block.element.value.toLowerCase().replaceAll(' ', '_').replaceAll('-', '_') +'.png" class="block-icon '+ block.text +'"/>'+ block.text + ' </span>');
     
     return $minecraftIcon;
   };
