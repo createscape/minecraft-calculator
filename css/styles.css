@@ -4,7 +4,7 @@ body {
       rgba(2, 0, 36, 1) 0%,
       rgba(2, 32, 72, 0) 77%
     ),
-    #1d89dc url(../img/wallpaper_minecraft_island_2560x1440.png) no-repeat;
+    #1d89dc url(../img/minecraft_island.png) no-repeat;
   background-attachment: fixed;
   background-size: cover;
   padding-bottom: 20px;
