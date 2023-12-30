@@ -241,11 +241,5 @@
     outputField.value = "";
   }
   
-  //To Do List:
-  // Add data for different recipes
-  // Domain Name
-  // Optimize
-  // Minify
-  
- 
+
   
